@@ -2,7 +2,7 @@
 FROM centos:7
 
 # Add a tag
-LABEL maintainer="stepanova"
+LABEL maintainer="stepanova13"
 
 # Update our packages, clean, and install Apache --> create var/www/html
 RUN yum -y update && yum clean all && yum install -y httpd
